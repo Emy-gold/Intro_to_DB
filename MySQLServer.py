@@ -21,4 +21,5 @@ finally:
     if mydb.is_connected():
         mycursor.close()
         mydb.close()
+
         print("MySQL connection is closed")
